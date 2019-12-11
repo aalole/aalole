@@ -14,7 +14,7 @@ body{
 .nav-links a{
   display: block;
   padding: 40px;
-  background: #adacac;
+  background: #828e92;
   font-size: 17px;
   font-weight: 700;
   text-decoration: none;
@@ -68,7 +68,7 @@ body{
 
 header{
   min-height: 100vh;
-  background-color: #daeff7;
+  background-color:#88a5bd;
   /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/header-bcg.jpeg')center/cover fixed no-repeat; */
   /* background-position: center;
   background-size: cover;
@@ -437,7 +437,8 @@ nav{
 /* ##################  CONTACT ############################ */
 .contact{
   padding: 100px 0;
-  background-color: #8fcbfd;
+  background-color: #88a5bd;
+  /* background-color: #8fcbfd; */
   /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/projects-1.jpeg')center/cover fixed no-repeat; */
   color: #133455;
 }
