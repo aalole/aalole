@@ -1,12 +1,4 @@
-//  function slideToggleAndAction(){
-//   const btn = document.querySelector('.btn');
-//   const header = document.getElementsByTagName('header');
-//  btn.addEventListener('click', function(){
-  
-//    const navLinks = document.querySelector('.nav-links');
-//    navLinks.toggle()
-//  });
-//  }
+
 
 //  slideToggleAndAction();
  
@@ -28,13 +20,7 @@ $(window).scroll(function(){
   }
 });
           // smooth scrolling
-  // $('nav-links a').click(function(link){
-  //   link.preventDefault();
-  //   let target = $(this).attr('href');
-  //   $('html, body').stop().animate({
-  //     scrollTop: $(target).offset().top
-  //   }, 3000, 'slow');
-  // });
+  
   $('.nav-link a').click(function (link) {
     link.preventDefault();
   
