@@ -27,7 +27,7 @@ $(window).scroll(function(){
     let targetPageSection = $(this).attr('href');
     $('html, body').stop().animate({
       scrollTop: $(targetPageSection).offset().top
-    }, 'slow'); 
+    }, 'fast'); 
   });
   // owl team
   $('.team-center').owlCarousel({

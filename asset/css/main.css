@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Volkhov', serif;
   overflow-x: hidden;
 }
 
@@ -95,9 +97,10 @@ nav{
 }
 .bannerCard h1{
   font-size: 40px;
-  color: #8fcbfd;
+  color: #25D366;
   font-style: italic;
   text-transform: uppercase;
+  font-family: 'Righteous', cursive;
 }
 .bannerCard span{
   color: #03243e;
@@ -276,9 +279,14 @@ nav{
     border: 2px solid #f5f3f5;
     transition: border 2s ease, background 2s ease, color 2s ease;
   }
+  .whatsApp{
+    background-color: 	#25D366;
+  }
+  .github{
+    background: #075e54;
+  }
   .about-text a:hover{
-    color: #191919;
-    background: #f5f3f5;
+    background: #075e54;
     border-color: #03243e   ;
   }
  @media screen and (min-width:776px){
@@ -299,14 +307,10 @@ nav{
 .projects{
   /* height: 100vh; */
   padding: 20px;
-  /* background: linear-gradient(to right, rgb(0, 70, 70), rgb(85, 170, 170)); */
   background:linear-gradient(to right, rgb(0, 58, 117, 0.6), rgb(0, 50, 110, 0.9));
   color: #fff;
 }
 .projects a img{
-  width: 320px;
-  height: 200px;
-  /* padding: 20px; */
   border-radius: 10px;
 }
 .projects h3{
@@ -316,17 +320,19 @@ nav{
   padding-top: 20px;
 }
 .minaret, .yim, .cypherdevs{
-  margin: auto;
-  padding-top: 40px;
+  /* margin: auto; */
+  padding: 17px 0;
 }
 .minaret h5, .yim h5{
   padding-bottom: 20px;
+  font-family: 'Kanit', sans-serif;
 }
 
 .projects-centre h5{
   text-transform: capitalize;
   font-size: 20px;
   font-style: oblique;
+  font-family: 'Kanit', sans-serif;
 }
 .projects-centre a{
   transition: opacity 2s ease;
@@ -339,24 +345,20 @@ nav{
 
 @media screen and (min-width: 776px){
   .projects{
-    height: 100vh;
-    /* padding: 50px 20px 20px auto; */
     background:linear-gradient(to right, rgb(0, 58, 117, 0.6), rgb(0, 50, 110, 0.9));
     color: #fff;
   }
   .projects-centre{
     display: flex;
     justify-content: space-around;
+    flex-wrap:wrap;
+    align-items: center;
   }
   .projects-center{
     margin-top: 30px;
   }
-  .projects a img{
-    height: 300px;
-  }
   .minaret, .yim, .cypherdevs{
     text-align: center;
-    margin-top: 50px;
   }
 }
 /* ############## TEAM MEMBER SECTION ############# */
@@ -535,6 +537,15 @@ form button:hover{
   overflow-x: scroll;
 }
 
+footer{
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align:center;
+  font-family: 'Kanit', sans-serif;
+  padding: 10px 0;
+}
+small{
+  color: #fff;
+}
 
 
 
